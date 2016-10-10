@@ -2,9 +2,9 @@
   "name": "brule",
   "version": "1.0.0",
   "description": "Dr. Brule reports on the health of your hapi server",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lab -c"
   },
   "repository": {
     "type": "git",
@@ -12,9 +12,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MPL-2.0",
   "bugs": {
     "url": "https://github.com/geek/brule/issues"
   },
-  "homepage": "https://github.com/geek/brule#readme"
+  "homepage": "https://github.com/geek/brule#readme",
+  "devDependencies": {
+    "code": "4.x.x",
+    "hapi": "15.x.x",
+    "lab": "11.x.x"
+  }
 }
