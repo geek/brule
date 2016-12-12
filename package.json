@@ -1,6 +1,6 @@
 {
   "name": "brule",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Dr. Brule reports on the health of your hapi server",
   "main": "lib/index.js",
   "scripts": {
