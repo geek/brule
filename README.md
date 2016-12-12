@@ -19,5 +19,4 @@ server.register(Brule, (err) => {
 
 ### Options
 
-`path` - the pathname to configure the route to use. Defaults to '/heartbeat'
-
+`path` - the pathname to configure the route to use. Defaults to '/check-it-out'
