@@ -11,15 +11,16 @@
     "url": "git+https://github.com/geek/brule.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "wyatt",
   "license": "MPL-2.0",
   "bugs": {
     "url": "https://github.com/geek/brule/issues"
   },
   "homepage": "https://github.com/geek/brule#readme",
   "devDependencies": {
-    "code": "4.x.x",
-    "hapi": "16.x.x",
-    "lab": "11.x.x"
-  }
+    "code": "5.x.x",
+    "hapi": "17.x.x",
+    "lab": "15.x.x"
+  },
+  "dependencies": {}
 }
