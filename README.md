@@ -1,6 +1,6 @@
 ![Dr. Brule](images/brule.jpg)
 
-Dr. Brule reports on the health of your [hapi](hapijs.com) server
+Dr. Brule responds if your [hapi](hapijs.com) server is up.
 
 [![Build Status](https://secure.travis-ci.org/geek/brule.svg)](http://travis-ci.org/geek/brule)
 
@@ -8,7 +8,7 @@ Dr. Brule reports on the health of your [hapi](hapijs.com) server
 
 ### Usage
 
-Register with a hapi server then use `/heartbeat` or the configured path to check that the server is responsive.
+Register with a hapi server then request `/check-it-out` or the configured path to check that the server is responsive.
 
 ```js
 const server = Hapi.server();
