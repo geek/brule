@@ -1,6 +1,6 @@
 ![Dr. Brule](images/brule.jpg)
 
-Dr. Brule responds if your [hapi](hapijs.com) server is up.
+Dr. Brule responds if your [hapi](https://hapijs.com) server is up.
 
 [![Build Status](https://secure.travis-ci.org/geek/brule.svg)](http://travis-ci.org/geek/brule)
 
