@@ -38,7 +38,7 @@ it('responds with a 200 at the configured path', async () => {
 
 it('responds with a non empty response', async () => {
   const server = Hapi.server();
-  await server.register(Brule);
+  await server.register({ plugin: Brule, options: { auth: false } });
   await server.initialize();
   const res = await server.inject('/check-it-out');
   expect(res.statusCode).to.equal(200);

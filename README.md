@@ -19,3 +19,4 @@ await server.register(Brule);
 ### Options
 
 `path` - the pathname to configure the route to use. Defaults to '/check-it-out'
+`auth` - value passed to route configuration. Defaults to undefined.
